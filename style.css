@@ -1,5 +1,6 @@
 body {
     margin: 0 20px;
+    background-color: rgb(241, 241, 241);
 }
 
 h1 {
@@ -7,6 +8,8 @@ h1 {
     text-align: center;
     font-size: 4em;
     font-family: 'Chango', cursive;
+    color: rgb(194, 0, 100);
+    text-shadow: 2px 2px darkgray ;
 
 }
 
@@ -31,7 +34,7 @@ h1 {
 
   .box{
       border-style: solid;
-      border-width: 2px;
+      border-width: 1px;
       border-radius: 100%;
       border-color: dimgrey;
       width: 40px;
@@ -41,6 +44,24 @@ h1 {
       align-content: center;
       box-shadow: 2px 2px grey;
       font-family: 'Chango', cursive;
+      background-color: rgb(233, 233, 243);
+
+  }
+
+  .button_div{
+      display: grid;
+      justify-content: center;
+      margin-top: 40px;
+  }
+
+  .reset_button{
+      border: none;
+      background-color: crimson;
+      color: rgb(255, 255, 255);
+      width: 80px;
+      height: 30px;
+      border-radius: 15px;
+      
 
   }
   
