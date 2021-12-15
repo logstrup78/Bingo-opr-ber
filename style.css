@@ -6,12 +6,37 @@ body {
 h1 {
     color: rgb(35, 35, 43);
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Chango', cursive;
     color: rgb(194, 0, 100);
     text-shadow: 2px 2px darkgray ;
+    margin-bottom: 20px;
+    margin-top: 10px;
 
 }
+
+h2{
+    color: rgb(35, 35, 43);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Chango', cursive;
+    color: rgb(194, 0, 100);
+    text-shadow: 2px 2px darkgray ;
+}
+
+select{
+    width: 300px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Chango', cursive;
+    color: rgb(194, 0, 100);
+    font-size: 1.5em;
+    text-shadow: 2px 2px darkgray ;
+    
+}
+ option{
+    
+ }
 
 .container {
     display: grid;
@@ -45,6 +70,7 @@ h1 {
       box-shadow: 2px 2px grey;
       font-family: 'Chango', cursive;
       background-color: rgb(233, 233, 243);
+      cursor: pointer;
 
   }
 
@@ -61,10 +87,19 @@ h1 {
       width: 80px;
       height: 30px;
       border-radius: 15px;
+      cursor: pointer;
       
 
   }
   
+.subtext{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 300px);
+    margin-bottom: 20px;
+
+}
+
   .a { grid-area: a; }
   
   .b { grid-area: b; }
