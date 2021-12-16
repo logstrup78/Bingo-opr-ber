@@ -22,6 +22,7 @@ h2{
     font-family: 'Chango', cursive;
     color: rgb(194, 0, 100);
     text-shadow: 2px 2px darkgray ;
+
 }
 
 select{
@@ -34,9 +35,6 @@ select{
     text-shadow: 2px 2px darkgray ;
     
 }
- option{
-    
- }
 
 .container {
     display: grid;
@@ -58,7 +56,7 @@ select{
   }
 
   .box{
-      border-style: solid;
+      border-style: none;
       border-width: 1px;
       border-radius: 100%;
       border-color: dimgrey;
@@ -73,6 +71,22 @@ select{
       cursor: pointer;
 
   }
+  .box1{
+    border-style: none;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: dimgrey;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 2px grey;
+    font-family: 'Chango', cursive;
+    background-color: rgb(251, 255, 0);
+    cursor: pointer;
+
+}
 
   .button_div{
       display: grid;
@@ -97,6 +111,7 @@ select{
     justify-content: center;
     grid-template-columns: repeat(2, 300px);
     margin-bottom: 20px;
+    column-gap: 20px;
 
 }
 

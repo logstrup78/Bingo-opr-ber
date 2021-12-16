@@ -1,8 +1,8 @@
+
 $('.box').click(function(){
-    $(this).css('background-color','yellow');
-    });
-
-
+    $(this).toggleClass('box1').toggleClass('box');
+});
+    
     $('button').click(function() {
         location.reload();
     });
