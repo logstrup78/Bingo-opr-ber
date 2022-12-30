@@ -90,11 +90,12 @@ select{
 
   .button_div{
       display: grid;
+      grid-template-columns: 50% 50%;
       justify-content: center;
       margin-top: 40px;
   }
 
-  .reset_button{
+  button{
       border: none;
       background-color: crimson;
       color: rgb(255, 255, 255);
@@ -104,6 +105,10 @@ select{
       cursor: pointer;
       
 
+  }
+
+  .buttons{
+    place-self: center;
   }
   
 .subtext{
